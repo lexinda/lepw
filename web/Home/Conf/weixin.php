@@ -6,4 +6,8 @@ return array(
 	'TOKEN'=>'lexindasoft',
 	'WEBCHAT_NUM'=>'gh_30d8ef4a6a74',
 	'TOKENURL' => 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=%s&secret=%s',
+	'WEBCHAT_IP' => 'https://api.weixin.qq.com/cgi-bin/getcallbackip?access_token=%s',
+		
+	//菜单
+	'MENU_QUERY' => 'https://api.weixin.qq.com/cgi-bin/menu/get?access_token=%s',
 );
